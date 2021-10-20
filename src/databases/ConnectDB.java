@@ -302,4 +302,7 @@ public class ConnectDB {
 
     public void insertDataFromArrayToSqlTable(int[] num, String shell_sort, String sortingNumbers) {
     }
+
+    public void insertDataFromArrayToSqlTable(String arrayList, String arrayData) {
+    }
 }
