@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9771989b-51b3-4e7c-b47c-ddb973a42c7b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/design/AbstractClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/databases/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/FindMissingNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +93,9 @@
     <option name="height" value="797" />
   </component>
   <component name="ProjectId" id="1zeH04okafNveTIpLCxlvnu5U2R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -200,7 +206,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseQueue">
+  <component name="RunManager" selected="Application.FindMissingNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -214,6 +220,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="databases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.Factorial" />
+      <module name="CodingExamMarch2018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,27 +255,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.FindMissingNumber" />
       <module name="CodingExamMarch2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseMap" />
-      <module name="CodingExamMarch2018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.*" />
+          <option name="PATTERN" value="math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,18 +316,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ConnectDB" />
-      <item itemvalue="Application.UseArrayList" />
-      <item itemvalue="Application.UseMap" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.UseQueue" />
+      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.FindMissingNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.ConnectDB" />
-        <item itemvalue="Application.UseMap" />
-        <item itemvalue="Application.UseArrayList" />
       </list>
     </recent_temporary>
   </component>

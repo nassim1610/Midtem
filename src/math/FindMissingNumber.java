@@ -1,4 +1,4 @@
-package math;
+package math; //done
 
 /**
  * Created by mrahman on 04/22/17.
@@ -15,8 +15,15 @@ public class FindMissingNumber {
 
         //implementation here...
 
+        int[] arr = {10, 2, 1, 4, 5, 3, 7, 8, 6};
+        int n = arr.length+1;//int n= 10;
 
+        int sum = (n*(n+1))/2;
+
+        for(int i =0; i< arr.length; i++){
+            sum = sum - arr[i];
+        }
+        System.out.println("Missing Number is: "+sum);
 
     }
-
 }

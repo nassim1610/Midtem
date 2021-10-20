@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo extends EmployeeAbstract implements Employee {
+public class EmployeeInfo extends EmployeeAbstract implements Employee  {
 
 	/*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
 	 * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -17,11 +17,14 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 
 	//implementation here...
 
-
 	/*declare few static and final fields and some non-static fields*/
 
     //implementation here...
-
+	private int EId;
+	private String EName;
+	private int ESalary;
+	private String Department;
+	private double benefit;
 
 	/*You must implement the logic for below 2 methods and
 	 * following 2 methods are prototype as well for other methods need to be design,
@@ -32,6 +35,7 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 	 */
 
     //implementation here...
+
 
 
 	/*
@@ -96,6 +100,11 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 	}
 	public void breakTime(){
 		System.out.println("employees should get 30 min paid break a day");
+	}
+
+	@Override
+	public void abstractClass() {
+
 	}
 
 	private static class DateConversion {
