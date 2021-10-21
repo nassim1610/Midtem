@@ -1,4 +1,4 @@
-package math;
+package math; //done
 
 import databases.ConnectDB;
 
@@ -18,5 +18,26 @@ public class Pattern {
 		//implementation here...
 
 
+		int n = 100;
+		System.out.println(arrayList(n));
+	}
+
+	public static ArrayList arrayList(int z) {
+		int count = 1, j = 0;
+
+		ArrayList<Integer> ar = new ArrayList<>();
+
+		int[] array1 = new int[40];
+
+		while (z > 0) {
+			for (int i = 0; i < 10; i++) {
+				ar.add(z);
+				array1[j] = z;
+				z -= count;
+				j++;
+			}
+			count++;
+		}
+		return ar;
 	}
 }

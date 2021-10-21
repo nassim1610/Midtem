@@ -18,4 +18,8 @@ public class Fibonacci {
                 next = next +prev;
             }
     }
+
+    public static int arrayFibo(int[] fab) {
+        ;return 0;
+    }
 }
