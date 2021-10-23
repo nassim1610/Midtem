@@ -1,7 +1,5 @@
 package math; //done
 
-import java.util.Arrays;
-
 public class Fibonacci {
 
          /*
